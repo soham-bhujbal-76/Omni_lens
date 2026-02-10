@@ -1,0 +1,18 @@
+# config.py
+
+# MCP23017 addresses
+MCP23017_ADDR_SOL = 0x20
+MCP23017_ADDR_REED = 0x21
+
+# Solenoids / sensors
+NUM_SOLENOIDS = 8
+NUM_REED_SENSORS = 16
+
+# Stepper GPIO
+STEP_PIN = 12
+DIR_PIN = 16
+
+# Stepper config
+STEPS_PER_REV = 3200
+DEFAULT_SPEED = 50
+DEFAULT_HOMING_OFFSET = 100
